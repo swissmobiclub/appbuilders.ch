@@ -1225,7 +1225,7 @@ function prepareSignup(iFrame){
     if(/list-manage\.com/.test(action)){
        action = action.replace('/post?', '/post-json?') + "&c=?";
        if(action.substr(0,2) == "//"){
-           action = 'http:' + action;
+           action = 'https:' + action;
        }
     }
 
